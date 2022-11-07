@@ -21,4 +21,9 @@ function func1()
     {
         document.getElementById("demo3").innerHTML="your weight is good";
     }
+    else if(x<=30 && y<=60)
+    {
+        document.getElementById("demo3").innerHTML="you are overweight";
+    }
+ 
 }
